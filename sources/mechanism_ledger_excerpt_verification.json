@@ -1,0 +1,2637 @@
+{
+ "ledger": "mechanism_rule_ledger_2026-09-26.json",
+ "total": 438,
+ "tally": {
+  "exact": 438
+ },
+ "rows": [
+  {
+   "rule_id": "P01-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Mischel_Shoda_1995_CAP_S.pdf p.8"
+  },
+  {
+   "rule_id": "P01-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Mischel_Shoda_1995_CAP_S.pdf p.9"
+  },
+  {
+   "rule_id": "P01-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Mischel_Shoda_1995_CAP_S.pdf p.9"
+  },
+  {
+   "rule_id": "P01-03b",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Mischel_Shoda_1995_CAP_S.pdf p.10"
+  },
+  {
+   "rule_id": "P01-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Mischel_Shoda_1995_CAP_S.pdf p.11"
+  },
+  {
+   "rule_id": "P01-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Mischel_Shoda_1995_CAP_S.pdf p.12"
+  },
+  {
+   "rule_id": "P01-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Mischel_Shoda_1995_CAP_S.pdf p.11"
+  },
+  {
+   "rule_id": "P01-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Mischel_Shoda_1995_CAP_S.pdf p.12"
+  },
+  {
+   "rule_id": "P01-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Mischel_Shoda_1995_CAP_S.pdf p.12"
+  },
+  {
+   "rule_id": "P01-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Mischel_Shoda_1995_CAP_S.pdf p.12"
+  },
+  {
+   "rule_id": "P01-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Mischel_Shoda_1995_CAP_S.pdf p.10"
+  },
+  {
+   "rule_id": "P19-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.16"
+  },
+  {
+   "rule_id": "P19-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.17"
+  },
+  {
+   "rule_id": "P19-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.17"
+  },
+  {
+   "rule_id": "P19-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.17"
+  },
+  {
+   "rule_id": "P19-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.18"
+  },
+  {
+   "rule_id": "P19-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.18"
+  },
+  {
+   "rule_id": "P19-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.20"
+  },
+  {
+   "rule_id": "P03-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.1"
+  },
+  {
+   "rule_id": "P03-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.10"
+  },
+  {
+   "rule_id": "P03-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.10"
+  },
+  {
+   "rule_id": "P03-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.10"
+  },
+  {
+   "rule_id": "P03-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.10"
+  },
+  {
+   "rule_id": "P03-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.11"
+  },
+  {
+   "rule_id": "P03-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.14"
+  },
+  {
+   "rule_id": "GST-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "GST2002_Kruglanski_Shah_Fishbach_Friedman_Chun_Sleeth-Keppler_2002.pdf p.6"
+  },
+  {
+   "rule_id": "GST-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "GST2002_Kruglanski_Shah_Fishbach_Friedman_Chun_Sleeth-Keppler_2002.pdf p.6"
+  },
+  {
+   "rule_id": "GST-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "GST2002_Kruglanski_Shah_Fishbach_Friedman_Chun_Sleeth-Keppler_2002.pdf p.6"
+  },
+  {
+   "rule_id": "GST-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "GST2002_Kruglanski_Shah_Fishbach_Friedman_Chun_Sleeth-Keppler_2002.pdf p.8"
+  },
+  {
+   "rule_id": "GST-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "GST2002_Kruglanski_Shah_Fishbach_Friedman_Chun_Sleeth-Keppler_2002.pdf p.12"
+  },
+  {
+   "rule_id": "GST-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/06_chapter1.xhtml"
+  },
+  {
+   "rule_id": "GST-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/17_chapter12.xhtml"
+  },
+  {
+   "rule_id": "P35-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P35_1996_Austin_Vancouver_JournalArticle_Goal_Constructs_Psychology.pdf p.3"
+  },
+  {
+   "rule_id": "P35-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P35_1996_Austin_Vancouver_JournalArticle_Goal_Constructs_Psychology.pdf p.4"
+  },
+  {
+   "rule_id": "P35-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P35_1996_Austin_Vancouver_JournalArticle_Goal_Constructs_Psychology.pdf p.3"
+  },
+  {
+   "rule_id": "P32-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P32_1993_Charniak_Goldman_JournalArticle_Bayesian_Model_Plan_Recognition.pdf p.3"
+  },
+  {
+   "rule_id": "P32-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P32_1993_Charniak_Goldman_JournalArticle_Bayesian_Model_Plan_Recognition.pdf p.3"
+  },
+  {
+   "rule_id": "P32-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P32_1993_Charniak_Goldman_JournalArticle_Bayesian_Model_Plan_Recognition.pdf p.5"
+  },
+  {
+   "rule_id": "P31-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P31_Baker_Saxe_Tenenbaum_2009_Action_Understanding_Inverse_Planning.pdf p.1"
+  },
+  {
+   "rule_id": "P31-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P31_Baker_Saxe_Tenenbaum_2009_Action_Understanding_Inverse_Planning.pdf p.2"
+  },
+  {
+   "rule_id": "P31-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P31_Baker_Saxe_Tenenbaum_2009_Action_Understanding_Inverse_Planning.pdf p.5"
+  },
+  {
+   "rule_id": "P31-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P31_Baker_Saxe_Tenenbaum_2009_Action_Understanding_Inverse_Planning.pdf p.5"
+  },
+  {
+   "rule_id": "P21-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P21_2001_Rapp_Gerrig_Prentice_JournalArticle_Readers_Trait_Based_Models.pdf p.2"
+  },
+  {
+   "rule_id": "P21-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P21_2001_Rapp_Gerrig_Prentice_JournalArticle_Readers_Trait_Based_Models.pdf p.1"
+  },
+  {
+   "rule_id": "P21-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P21_2001_Rapp_Gerrig_Prentice_JournalArticle_Readers_Trait_Based_Models.pdf p.3"
+  },
+  {
+   "rule_id": "P22-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P22_1996_Culpeper_Article_Inferring_Character_From_Texts.pdf p.3"
+  },
+  {
+   "rule_id": "P22-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P22_1996_Culpeper_Article_Inferring_Character_From_Texts.pdf p.3"
+  },
+  {
+   "rule_id": "P22-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P22_1996_Culpeper_Article_Inferring_Character_From_Texts.pdf p.3"
+  },
+  {
+   "rule_id": "P22-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P22_1996_Culpeper_Article_Inferring_Character_From_Texts.pdf p.4"
+  },
+  {
+   "rule_id": "P22-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P22_1996_Culpeper_Article_Inferring_Character_From_Texts.pdf p.4"
+  },
+  {
+   "rule_id": "P04-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.2"
+  },
+  {
+   "rule_id": "P04-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.7"
+  },
+  {
+   "rule_id": "P04-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.12"
+  },
+  {
+   "rule_id": "P04-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.3"
+  },
+  {
+   "rule_id": "P04-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.3"
+  },
+  {
+   "rule_id": "P04-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.3"
+  },
+  {
+   "rule_id": "P19-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.15"
+  },
+  {
+   "rule_id": "P04-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.4"
+  },
+  {
+   "rule_id": "P04-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.5"
+  },
+  {
+   "rule_id": "P04-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.6"
+  },
+  {
+   "rule_id": "P04-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.6"
+  },
+  {
+   "rule_id": "P04-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.6"
+  },
+  {
+   "rule_id": "P04-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.7"
+  },
+  {
+   "rule_id": "P04-13",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.7"
+  },
+  {
+   "rule_id": "P04-14",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.7"
+  },
+  {
+   "rule_id": "P04-15",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.11"
+  },
+  {
+   "rule_id": "P04-16",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.11"
+  },
+  {
+   "rule_id": "P04-17",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.11"
+  },
+  {
+   "rule_id": "P04-18",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.11"
+  },
+  {
+   "rule_id": "P04-19",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.12"
+  },
+  {
+   "rule_id": "P04-20",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.12"
+  },
+  {
+   "rule_id": "P04-21",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.12"
+  },
+  {
+   "rule_id": "P04-22",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.12"
+  },
+  {
+   "rule_id": "P04-23",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.12"
+  },
+  {
+   "rule_id": "P04-24",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.13"
+  },
+  {
+   "rule_id": "P04-25",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.13"
+  },
+  {
+   "rule_id": "P04-26",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.13"
+  },
+  {
+   "rule_id": "P04-27",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.13"
+  },
+  {
+   "rule_id": "P04-28",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.13"
+  },
+  {
+   "rule_id": "P04-29",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.14"
+  },
+  {
+   "rule_id": "P04-30",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.14"
+  },
+  {
+   "rule_id": "P04-31",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.14"
+  },
+  {
+   "rule_id": "P04-32",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.14"
+  },
+  {
+   "rule_id": "P04-33",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.14"
+  },
+  {
+   "rule_id": "P04-34",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.16"
+  },
+  {
+   "rule_id": "P04-35",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.16"
+  },
+  {
+   "rule_id": "P04-36",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.16"
+  },
+  {
+   "rule_id": "P04-37",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.16"
+  },
+  {
+   "rule_id": "P04-38",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.16"
+  },
+  {
+   "rule_id": "P04-39",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Scherer_2019_Emotion_Process.pdf p.16"
+  },
+  {
+   "rule_id": "P19-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.14"
+  },
+  {
+   "rule_id": "P19-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.14"
+  },
+  {
+   "rule_id": "P19-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.15"
+  },
+  {
+   "rule_id": "P19-13",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.15"
+  },
+  {
+   "rule_id": "P19-14",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.15"
+  },
+  {
+   "rule_id": "P19-15",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.16"
+  },
+  {
+   "rule_id": "P19-16",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.16"
+  },
+  {
+   "rule_id": "P19-17",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.16"
+  },
+  {
+   "rule_id": "P19-18",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.16"
+  },
+  {
+   "rule_id": "P19-19",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.16"
+  },
+  {
+   "rule_id": "P19-20",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.17"
+  },
+  {
+   "rule_id": "P19-21",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.17"
+  },
+  {
+   "rule_id": "P19-22",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.17"
+  },
+  {
+   "rule_id": "P19-23",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.17"
+  },
+  {
+   "rule_id": "P19-24",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.18"
+  },
+  {
+   "rule_id": "P19-25",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.18"
+  },
+  {
+   "rule_id": "P16-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.70"
+  },
+  {
+   "rule_id": "P16-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.70"
+  },
+  {
+   "rule_id": "P16-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.70"
+  },
+  {
+   "rule_id": "P16-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.70"
+  },
+  {
+   "rule_id": "P16-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.70"
+  },
+  {
+   "rule_id": "P16-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.71"
+  },
+  {
+   "rule_id": "P16-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.72"
+  },
+  {
+   "rule_id": "P16-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.72"
+  },
+  {
+   "rule_id": "P16-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.72"
+  },
+  {
+   "rule_id": "P16-13",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.72"
+  },
+  {
+   "rule_id": "P16-14",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.72"
+  },
+  {
+   "rule_id": "P03-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.10"
+  },
+  {
+   "rule_id": "P03-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.12"
+  },
+  {
+   "rule_id": "P03-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.12"
+  },
+  {
+   "rule_id": "P03-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.14"
+  },
+  {
+   "rule_id": "P03-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.14"
+  },
+  {
+   "rule_id": "P03-13",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.14"
+  },
+  {
+   "rule_id": "P03-14",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.15"
+  },
+  {
+   "rule_id": "P03-15",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.15"
+  },
+  {
+   "rule_id": "P03-16",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.15"
+  },
+  {
+   "rule_id": "P03-17",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.17"
+  },
+  {
+   "rule_id": "P03-18",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.18"
+  },
+  {
+   "rule_id": "P03-19",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.18"
+  },
+  {
+   "rule_id": "P03-20",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.12"
+  },
+  {
+   "rule_id": "P03-21",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.12"
+  },
+  {
+   "rule_id": "P03-22",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Cervone_2022_Five_Paths_to_Personality_Coherence.pdf p.12"
+  },
+  {
+   "rule_id": "P40-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.3"
+  },
+  {
+   "rule_id": "P40-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.3"
+  },
+  {
+   "rule_id": "P40-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.4"
+  },
+  {
+   "rule_id": "P40-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.4"
+  },
+  {
+   "rule_id": "P40-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.5"
+  },
+  {
+   "rule_id": "P40-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.5"
+  },
+  {
+   "rule_id": "P40-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.5"
+  },
+  {
+   "rule_id": "P40-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.3"
+  },
+  {
+   "rule_id": "P40-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.3"
+  },
+  {
+   "rule_id": "P40-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.4"
+  },
+  {
+   "rule_id": "P40-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.4"
+  },
+  {
+   "rule_id": "P40-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.4"
+  },
+  {
+   "rule_id": "P40-13",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.4"
+  },
+  {
+   "rule_id": "P40-14",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P40_Higgins1987.pdf p.5"
+  },
+  {
+   "rule_id": "P20-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.3"
+  },
+  {
+   "rule_id": "P20-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.8"
+  },
+  {
+   "rule_id": "P20-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.8"
+  },
+  {
+   "rule_id": "P20-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.8"
+  },
+  {
+   "rule_id": "P20-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.8"
+  },
+  {
+   "rule_id": "P20-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.14"
+  },
+  {
+   "rule_id": "P20-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.14"
+  },
+  {
+   "rule_id": "P20-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.7"
+  },
+  {
+   "rule_id": "P20-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.14"
+  },
+  {
+   "rule_id": "P20-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.19"
+  },
+  {
+   "rule_id": "P20-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.19"
+  },
+  {
+   "rule_id": "P11-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Pals_2006_A_New_Big_Five.pdf p.10"
+  },
+  {
+   "rule_id": "P11-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Pals_2006_A_New_Big_Five.pdf p.10"
+  },
+  {
+   "rule_id": "P11-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Pals_2006_A_New_Big_Five.pdf p.11"
+  },
+  {
+   "rule_id": "P11-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Pals_2006_A_New_Big_Five.pdf p.10"
+  },
+  {
+   "rule_id": "P11-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Pals_2006_A_New_Big_Five.pdf p.1"
+  },
+  {
+   "rule_id": "P39-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P39_Baldwin_1992_Relational_Schemas.pdf p.2"
+  },
+  {
+   "rule_id": "P39-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P39_Baldwin_1992_Relational_Schemas.pdf p.13"
+  },
+  {
+   "rule_id": "P39-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P39_Baldwin_1992_Relational_Schemas.pdf p.13"
+  },
+  {
+   "rule_id": "P39-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P39_Baldwin_1992_Relational_Schemas.pdf p.14"
+  },
+  {
+   "rule_id": "P39-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P39_Baldwin_1992_Relational_Schemas.pdf p.14"
+  },
+  {
+   "rule_id": "P39-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P39_Baldwin_1992_Relational_Schemas.pdf p.14"
+  },
+  {
+   "rule_id": "P39-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P39_Baldwin_1992_Relational_Schemas.pdf p.15"
+  },
+  {
+   "rule_id": "P39-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P39_Baldwin_1992_Relational_Schemas.pdf p.15"
+  },
+  {
+   "rule_id": "P39-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P39_Baldwin_1992_Relational_Schemas.pdf p.15"
+  },
+  {
+   "rule_id": "P34-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P34_Dweck_Leggett_1988.pdf p.1"
+  },
+  {
+   "rule_id": "P34-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P34_Dweck_Leggett_1988.pdf p.4"
+  },
+  {
+   "rule_id": "P34-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P34_Dweck_Leggett_1988.pdf p.6"
+  },
+  {
+   "rule_id": "P34-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P34_Dweck_Leggett_1988.pdf p.6"
+  },
+  {
+   "rule_id": "P34-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P34_Dweck_Leggett_1988.pdf p.6"
+  },
+  {
+   "rule_id": "P34-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P34_Dweck_Leggett_1988.pdf p.6"
+  },
+  {
+   "rule_id": "P34-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P34_Dweck_Leggett_1988.pdf p.14"
+  },
+  {
+   "rule_id": "P34-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P34_Dweck_Leggett_1988.pdf p.14"
+  },
+  {
+   "rule_id": "P41-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P41_1977_Schank_Abelson_Book_Scripts_Plans_Goals_Understanding.epub p.OEBPS/009_9780203781036_chapter3.html"
+  },
+  {
+   "rule_id": "P41-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P41_1977_Schank_Abelson_Book_Scripts_Plans_Goals_Understanding.epub p.OEBPS/009_9780203781036_chapter3.html"
+  },
+  {
+   "rule_id": "P41-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P41_1977_Schank_Abelson_Book_Scripts_Plans_Goals_Understanding.epub p.OEBPS/009_9780203781036_chapter3.html"
+  },
+  {
+   "rule_id": "P41-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P41_1977_Schank_Abelson_Book_Scripts_Plans_Goals_Understanding.epub p.OEBPS/010_9780203781036_chapter4.html"
+  },
+  {
+   "rule_id": "P41-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P41_1977_Schank_Abelson_Book_Scripts_Plans_Goals_Understanding.epub p.OEBPS/010_9780203781036_chapter4.html"
+  },
+  {
+   "rule_id": "P41-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P41_1977_Schank_Abelson_Book_Scripts_Plans_Goals_Understanding.epub p.OEBPS/012_9780203781036_chapter6.html"
+  },
+  {
+   "rule_id": "P41-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P41_1977_Schank_Abelson_Book_Scripts_Plans_Goals_Understanding.epub p.OEBPS/014_9780203781036_chapter8.html"
+  },
+  {
+   "rule_id": "P41-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P41_1977_Schank_Abelson_Book_Scripts_Plans_Goals_Understanding.epub p.OEBPS/015_9780203781036_chapter9.html"
+  },
+  {
+   "rule_id": "P33-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P33_Buss_Craik_1983_Act_Frequency_Approach.pdf p.1"
+  },
+  {
+   "rule_id": "P33-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P33_Buss_Craik_1983_Act_Frequency_Approach.pdf p.1"
+  },
+  {
+   "rule_id": "P33-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P33_Buss_Craik_1983_Act_Frequency_Approach.pdf p.2"
+  },
+  {
+   "rule_id": "P33-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P33_Buss_Craik_1983_Act_Frequency_Approach.pdf p.2"
+  },
+  {
+   "rule_id": "P33-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P33_Buss_Craik_1983_Act_Frequency_Approach.pdf p.4"
+  },
+  {
+   "rule_id": "P33-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P33_Buss_Craik_1983_Act_Frequency_Approach.pdf p.18"
+  },
+  {
+   "rule_id": "P33-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P33_Buss_Craik_1983_Act_Frequency_Approach.pdf p.18"
+  },
+  {
+   "rule_id": "P33-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P33_Buss_Craik_1983_Act_Frequency_Approach.pdf p.18"
+  },
+  {
+   "rule_id": "P33-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P33_Buss_Craik_1983_Act_Frequency_Approach.pdf p.18"
+  },
+  {
+   "rule_id": "P44-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P44_2026_Kentrou_Buczny_Review_No_One_Sees_You_Quite_Like_I_Do.pdf p.1"
+  },
+  {
+   "rule_id": "P44-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P44_2026_Kentrou_Buczny_Review_No_One_Sees_You_Quite_Like_I_Do.pdf p.5"
+  },
+  {
+   "rule_id": "P44-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P44_2026_Kentrou_Buczny_Review_No_One_Sees_You_Quite_Like_I_Do.pdf p.5"
+  },
+  {
+   "rule_id": "P44-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P44_2026_Kentrou_Buczny_Review_No_One_Sees_You_Quite_Like_I_Do.pdf p.5"
+  },
+  {
+   "rule_id": "P44-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P44_2026_Kentrou_Buczny_Review_No_One_Sees_You_Quite_Like_I_Do.pdf p.2"
+  },
+  {
+   "rule_id": "P44-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P44_2026_Kentrou_Buczny_Review_No_One_Sees_You_Quite_Like_I_Do.pdf p.5"
+  },
+  {
+   "rule_id": "P44-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P44_2026_Kentrou_Buczny_Review_No_One_Sees_You_Quite_Like_I_Do.pdf p.6"
+  },
+  {
+   "rule_id": "P44-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P44_2026_Kentrou_Buczny_Review_No_One_Sees_You_Quite_Like_I_Do.pdf p.6"
+  },
+  {
+   "rule_id": "P44-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P44_2026_Kentrou_Buczny_Review_No_One_Sees_You_Quite_Like_I_Do.pdf p.6"
+  },
+  {
+   "rule_id": "P26-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.2"
+  },
+  {
+   "rule_id": "P26-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.2"
+  },
+  {
+   "rule_id": "P26-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.9"
+  },
+  {
+   "rule_id": "P26-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.9"
+  },
+  {
+   "rule_id": "P26-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.9"
+  },
+  {
+   "rule_id": "P26-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.9"
+  },
+  {
+   "rule_id": "P26-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.10"
+  },
+  {
+   "rule_id": "P26-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.10"
+  },
+  {
+   "rule_id": "P26-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.9"
+  },
+  {
+   "rule_id": "P26-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.16"
+  },
+  {
+   "rule_id": "P26-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.17"
+  },
+  {
+   "rule_id": "P26-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.17"
+  },
+  {
+   "rule_id": "P26-13",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.11"
+  },
+  {
+   "rule_id": "P26-15",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.9"
+  },
+  {
+   "rule_id": "P26-14",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Generative_Agents_Park_2023.pdf p.17"
+  },
+  {
+   "rule_id": "P43-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P43_Javadi_2026_Personality_Anchoring.pdf p.4"
+  },
+  {
+   "rule_id": "P43-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P43_Javadi_2026_Personality_Anchoring.pdf p.4"
+  },
+  {
+   "rule_id": "P43-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P43_Javadi_2026_Personality_Anchoring.pdf p.1"
+  },
+  {
+   "rule_id": "P43-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P43_Javadi_2026_Personality_Anchoring.pdf p.7"
+  },
+  {
+   "rule_id": "P43-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P43_Javadi_2026_Personality_Anchoring.pdf p.7"
+  },
+  {
+   "rule_id": "P43-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P43_Javadi_2026_Personality_Anchoring.pdf p.8"
+  },
+  {
+   "rule_id": "P43-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P43_Javadi_2026_Personality_Anchoring.pdf p.9"
+  },
+  {
+   "rule_id": "P43-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P43_Javadi_2026_Personality_Anchoring.pdf p.9"
+  },
+  {
+   "rule_id": "P43-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P43_Javadi_2026_Personality_Anchoring.pdf p.9"
+  },
+  {
+   "rule_id": "P43-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P43_Javadi_2026_Personality_Anchoring.pdf p.3"
+  },
+  {
+   "rule_id": "P43-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P43_Javadi_2026_Personality_Anchoring.pdf p.4"
+  },
+  {
+   "rule_id": "P30-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.2"
+  },
+  {
+   "rule_id": "P30-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.4"
+  },
+  {
+   "rule_id": "P30-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.6"
+  },
+  {
+   "rule_id": "P30-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.6"
+  },
+  {
+   "rule_id": "P30-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.6"
+  },
+  {
+   "rule_id": "P30-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.7"
+  },
+  {
+   "rule_id": "P30-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.6"
+  },
+  {
+   "rule_id": "P30-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.8"
+  },
+  {
+   "rule_id": "P30-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.9"
+  },
+  {
+   "rule_id": "P30-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.9"
+  },
+  {
+   "rule_id": "P30-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.1"
+  },
+  {
+   "rule_id": "P30-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.2"
+  },
+  {
+   "rule_id": "P30-13",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P30_Alves_Viana_Lucena_2018_Normative_BDI_Personality.pdf p.10"
+  },
+  {
+   "rule_id": "P38-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.4"
+  },
+  {
+   "rule_id": "P38-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.4"
+  },
+  {
+   "rule_id": "P38-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.4"
+  },
+  {
+   "rule_id": "P38-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.6"
+  },
+  {
+   "rule_id": "P38-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.10"
+  },
+  {
+   "rule_id": "P38-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.11"
+  },
+  {
+   "rule_id": "P38-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.11"
+  },
+  {
+   "rule_id": "P38-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.12"
+  },
+  {
+   "rule_id": "P38-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.12"
+  },
+  {
+   "rule_id": "P38-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.13"
+  },
+  {
+   "rule_id": "P38-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.13"
+  },
+  {
+   "rule_id": "P38-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P38_Gurtman_2009_Interpersonal_Circumplex.pdf p.5"
+  },
+  {
+   "rule_id": "P12b-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.3"
+  },
+  {
+   "rule_id": "P12b-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.14"
+  },
+  {
+   "rule_id": "P12b-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.6"
+  },
+  {
+   "rule_id": "P12b-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.4"
+  },
+  {
+   "rule_id": "P12b-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.5"
+  },
+  {
+   "rule_id": "P12b-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.6"
+  },
+  {
+   "rule_id": "P12b-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.6"
+  },
+  {
+   "rule_id": "P12b-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.6"
+  },
+  {
+   "rule_id": "P12b-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.18"
+  },
+  {
+   "rule_id": "P12b-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.19"
+  },
+  {
+   "rule_id": "P12b-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.10"
+  },
+  {
+   "rule_id": "P12b-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.12"
+  },
+  {
+   "rule_id": "P12b-13",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "McAdams_Olson_2010_Personality_Development.pdf p.14"
+  },
+  {
+   "rule_id": "P25-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P25_2010_Eder_Jannidis_Schneider_Eds_Book_Characters_in_Fictional_Worlds.pdf p.15"
+  },
+  {
+   "rule_id": "P25-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P25_2010_Eder_Jannidis_Schneider_Eds_Book_Characters_in_Fictional_Worlds.pdf p.17"
+  },
+  {
+   "rule_id": "P25-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P25_2010_Eder_Jannidis_Schneider_Eds_Book_Characters_in_Fictional_Worlds.pdf p.18"
+  },
+  {
+   "rule_id": "P25-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P25_2010_Eder_Jannidis_Schneider_Eds_Book_Characters_in_Fictional_Worlds.pdf p.244"
+  },
+  {
+   "rule_id": "P25-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P25_2010_Eder_Jannidis_Schneider_Eds_Book_Characters_in_Fictional_Worlds.pdf p.244"
+  },
+  {
+   "rule_id": "P25-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P25_2010_Eder_Jannidis_Schneider_Eds_Book_Characters_in_Fictional_Worlds.pdf p.245"
+  },
+  {
+   "rule_id": "P25-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P25_2010_Eder_Jannidis_Schneider_Eds_Book_Characters_in_Fictional_Worlds.pdf p.246"
+  },
+  {
+   "rule_id": "P25-07b",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P25_2010_Eder_Jannidis_Schneider_Eds_Book_Characters_in_Fictional_Worlds.pdf p.247"
+  },
+  {
+   "rule_id": "P25-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P25_2010_Eder_Jannidis_Schneider_Eds_Book_Characters_in_Fictional_Worlds.pdf p.249"
+  },
+  {
+   "rule_id": "P42-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.2"
+  },
+  {
+   "rule_id": "P42-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.6"
+  },
+  {
+   "rule_id": "P42-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.16"
+  },
+  {
+   "rule_id": "P42-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.17"
+  },
+  {
+   "rule_id": "P42-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.17"
+  },
+  {
+   "rule_id": "P42-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.16"
+  },
+  {
+   "rule_id": "P42-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.19"
+  },
+  {
+   "rule_id": "P42-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.23"
+  },
+  {
+   "rule_id": "P42-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.28"
+  },
+  {
+   "rule_id": "P42-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.14"
+  },
+  {
+   "rule_id": "P42-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.9"
+  },
+  {
+   "rule_id": "P42-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.36"
+  },
+  {
+   "rule_id": "P42-12b",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.11"
+  },
+  {
+   "rule_id": "P42-13",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.13"
+  },
+  {
+   "rule_id": "P42-14",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P42_Riedl_Young_2010_Narrative_Planning.pdf p.37"
+  },
+  {
+   "rule_id": "P12-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P12_Bahamón_Young_2013_CB-POCL.pdf p.4"
+  },
+  {
+   "rule_id": "P12-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P12_Bahamón_Young_2013_CB-POCL.pdf p.4"
+  },
+  {
+   "rule_id": "P13-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P13_Bahamon_Barot_Young_2015_Goal_Based_Model.pdf p.2"
+  },
+  {
+   "rule_id": "P13-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P13_Bahamon_Barot_Young_2015_Goal_Based_Model.pdf p.2"
+  },
+  {
+   "rule_id": "P15-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Shirvani_Ware_2019_Plan_Based_Personality_Model.pdf p.3"
+  },
+  {
+   "rule_id": "P15-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Shirvani_Ware_2019_Plan_Based_Personality_Model.pdf p.5"
+  },
+  {
+   "rule_id": "P15-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Shirvani_Ware_2019_Plan_Based_Personality_Model.pdf p.5"
+  },
+  {
+   "rule_id": "P15-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Shirvani_Ware_2019_Plan_Based_Personality_Model.pdf p.6"
+  },
+  {
+   "rule_id": "P14-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Bahamon_Young_2017_Personality_Action_Choice.pdf p.6"
+  },
+  {
+   "rule_id": "P14-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Bahamon_Young_2017_Personality_Action_Choice.pdf p.6"
+  },
+  {
+   "rule_id": "P16-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.54"
+  },
+  {
+   "rule_id": "P16-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.54"
+  },
+  {
+   "rule_id": "P16-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P16_Shirvani_2021_Personality_Emotion_Virtual_Characters_Thesis.pdf p.54"
+  },
+  {
+   "rule_id": "P17-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Shirvani_2023_Personality_Emotion_Narrative_Planning.pdf p.5"
+  },
+  {
+   "rule_id": "P17-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Shirvani_2023_Personality_Emotion_Narrative_Planning.pdf p.5"
+  },
+  {
+   "rule_id": "P17-02b",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Shirvani_2023_Personality_Emotion_Narrative_Planning.pdf p.6"
+  },
+  {
+   "rule_id": "P17-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Shirvani_2023_Personality_Emotion_Narrative_Planning.pdf p.5"
+  },
+  {
+   "rule_id": "P17-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Shirvani_2023_Personality_Emotion_Narrative_Planning.pdf p.5"
+  },
+  {
+   "rule_id": "P17-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Shirvani_2023_Personality_Emotion_Narrative_Planning.pdf p.5"
+  },
+  {
+   "rule_id": "P18-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P18_Rubin_McGregor_Harrison_Siler_2023_Personality_Exceptions.pdf p.1"
+  },
+  {
+   "rule_id": "P18-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P18_Rubin_McGregor_Harrison_Siler_2023_Personality_Exceptions.pdf p.1"
+  },
+  {
+   "rule_id": "P18-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P18_Rubin_McGregor_Harrison_Siler_2023_Personality_Exceptions.pdf p.1"
+  },
+  {
+   "rule_id": "BOTT-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Bott_2023_Bott_et_al_MetaAnalysis_Spontaneous_Trait_Inferences_From_Behavior.txt p.1"
+  },
+  {
+   "rule_id": "BOTT-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Bott_2023_Bott_et_al_MetaAnalysis_Spontaneous_Trait_Inferences_From_Behavior.txt p.1"
+  },
+  {
+   "rule_id": "BOTT-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Bott_2023_Bott_et_al_MetaAnalysis_Spontaneous_Trait_Inferences_From_Behavior.txt p.1"
+  },
+  {
+   "rule_id": "P19-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P19_2005_Cervone_Review_Personality_Architecture.pdf p.19"
+  },
+  {
+   "rule_id": "P36-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/06_chapter1.xhtml"
+  },
+  {
+   "rule_id": "P36-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/06_chapter1.xhtml"
+  },
+  {
+   "rule_id": "P36-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/06_chapter1.xhtml"
+  },
+  {
+   "rule_id": "P36-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/06_chapter1.xhtml"
+  },
+  {
+   "rule_id": "P36-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/06_chapter1.xhtml"
+  },
+  {
+   "rule_id": "P36-13b",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/07_chapter2.xhtml"
+  },
+  {
+   "rule_id": "P36-13c",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/07_chapter2.xhtml"
+  },
+  {
+   "rule_id": "P36-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/06_chapter1.xhtml"
+  },
+  {
+   "rule_id": "P36-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/06_chapter1.xhtml"
+  },
+  {
+   "rule_id": "P36-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/07_chapter2.xhtml"
+  },
+  {
+   "rule_id": "P36-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/07_chapter2.xhtml"
+  },
+  {
+   "rule_id": "P36-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/07_chapter2.xhtml"
+  },
+  {
+   "rule_id": "P36-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/07_chapter2.xhtml"
+  },
+  {
+   "rule_id": "P36-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/06_chapter1.xhtml"
+  },
+  {
+   "rule_id": "P36-13",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/07_chapter2.xhtml"
+  },
+  {
+   "rule_id": "P36-14",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/07_chapter2.xhtml"
+  },
+  {
+   "rule_id": "P36-15",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P36_2023_Kruglanski_Fishbach_Kopetz_Eds_Book_Goal_Systems_Theory.epub p.OEBPS/html/07_chapter2.xhtml"
+  },
+  {
+   "rule_id": "P37-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.1"
+  },
+  {
+   "rule_id": "P37-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.1"
+  },
+  {
+   "rule_id": "P37-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.1"
+  },
+  {
+   "rule_id": "P37-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.3"
+  },
+  {
+   "rule_id": "P37-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.4"
+  },
+  {
+   "rule_id": "P37-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.5"
+  },
+  {
+   "rule_id": "P37-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.5"
+  },
+  {
+   "rule_id": "P37-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.7"
+  },
+  {
+   "rule_id": "P37-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.7"
+  },
+  {
+   "rule_id": "P37-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.7"
+  },
+  {
+   "rule_id": "P37-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.9"
+  },
+  {
+   "rule_id": "P37-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P37_Horowitz_SageChina.pdf p.15"
+  },
+  {
+   "rule_id": "P23-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch01.xhtml"
+  },
+  {
+   "rule_id": "P23-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-13",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-14",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P23-15",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P23_2001_Culpeper_Book_Language_and_Characterisation.epub p.OEBPS/xhtml/Ch03.xhtml"
+  },
+  {
+   "rule_id": "P27-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.1"
+  },
+  {
+   "rule_id": "P27-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.2"
+  },
+  {
+   "rule_id": "P27-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.2"
+  },
+  {
+   "rule_id": "P27-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.2"
+  },
+  {
+   "rule_id": "P27-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.4"
+  },
+  {
+   "rule_id": "P27-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.11"
+  },
+  {
+   "rule_id": "P27-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.5"
+  },
+  {
+   "rule_id": "P27-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.6"
+  },
+  {
+   "rule_id": "P27-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.6"
+  },
+  {
+   "rule_id": "P27-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.6"
+  },
+  {
+   "rule_id": "P27-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.8"
+  },
+  {
+   "rule_id": "P27-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "DREAM_2026_Role_Playing_Event_Aware_Memory.pdf p.7"
+  },
+  {
+   "rule_id": "P28-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P28_CHATTER_2025_Character_Attribution_Dataset.pdf p.1"
+  },
+  {
+   "rule_id": "P28-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P28_CHATTER_2025_Character_Attribution_Dataset.pdf p.1"
+  },
+  {
+   "rule_id": "P28-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P28_CHATTER_2025_Character_Attribution_Dataset.pdf p.2"
+  },
+  {
+   "rule_id": "P28-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P28_CHATTER_2025_Character_Attribution_Dataset.pdf p.2"
+  },
+  {
+   "rule_id": "P28-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P28_CHATTER_2025_Character_Attribution_Dataset.pdf p.3"
+  },
+  {
+   "rule_id": "P28-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P28_CHATTER_2025_Character_Attribution_Dataset.pdf p.4"
+  },
+  {
+   "rule_id": "P28-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P28_CHATTER_2025_Character_Attribution_Dataset.pdf p.4"
+  },
+  {
+   "rule_id": "P28-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P28_CHATTER_2025_Character_Attribution_Dataset.pdf p.5"
+  },
+  {
+   "rule_id": "P28-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P28_CHATTER_2025_Character_Attribution_Dataset.pdf p.6"
+  },
+  {
+   "rule_id": "P28-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P28_CHATTER_2025_Character_Attribution_Dataset.pdf p.6"
+  },
+  {
+   "rule_id": "P28-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P28_CHATTER_2025_Character_Attribution_Dataset.pdf p.6"
+  },
+  {
+   "rule_id": "P46-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Phelan_1989_Book_Reading_People_Reading_Plots.pdf p.9"
+  },
+  {
+   "rule_id": "P46-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Phelan_1989_Book_Reading_People_Reading_Plots.pdf p.15"
+  },
+  {
+   "rule_id": "P46-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Phelan_1989_Book_Reading_People_Reading_Plots.pdf p.16"
+  },
+  {
+   "rule_id": "P46-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Phelan_1989_Book_Reading_People_Reading_Plots.pdf p.17"
+  },
+  {
+   "rule_id": "P46-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Phelan_1989_Book_Reading_People_Reading_Plots.pdf p.21"
+  },
+  {
+   "rule_id": "P46-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Phelan_1989_Book_Reading_People_Reading_Plots.pdf p.22"
+  },
+  {
+   "rule_id": "P46-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Phelan_1989_Book_Reading_People_Reading_Plots.pdf p.25"
+  },
+  {
+   "rule_id": "P46-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Phelan_1989_Book_Reading_People_Reading_Plots.pdf p.27"
+  },
+  {
+   "rule_id": "P46-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Phelan_1989_Book_Reading_People_Reading_Plots.pdf p.34"
+  },
+  {
+   "rule_id": "P47-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Chatman_1978_Book_Story_and_Discourse.pdf p.10"
+  },
+  {
+   "rule_id": "P47-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Chatman_1978_Book_Story_and_Discourse.pdf p.11"
+  },
+  {
+   "rule_id": "P47-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Chatman_1978_Book_Story_and_Discourse.pdf p.15"
+  },
+  {
+   "rule_id": "P47-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Chatman_1978_Book_Story_and_Discourse.pdf p.15"
+  },
+  {
+   "rule_id": "P47-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Chatman_1978_Book_Story_and_Discourse.pdf p.16"
+  },
+  {
+   "rule_id": "P47-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Chatman_1978_Book_Story_and_Discourse.pdf p.17"
+  },
+  {
+   "rule_id": "P47-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Chatman_1978_Book_Story_and_Discourse.pdf p.18"
+  },
+  {
+   "rule_id": "P47-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Chatman_1978_Book_Story_and_Discourse.pdf p.21"
+  },
+  {
+   "rule_id": "P29-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P29_Text_to_Text_Automatic_Story_Generation_Survey.pdf p.1"
+  },
+  {
+   "rule_id": "P29-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P29_Text_to_Text_Automatic_Story_Generation_Survey.pdf p.8"
+  },
+  {
+   "rule_id": "P29-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P29_Text_to_Text_Automatic_Story_Generation_Survey.pdf p.9"
+  },
+  {
+   "rule_id": "P29-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P29_Text_to_Text_Automatic_Story_Generation_Survey.pdf p.9"
+  },
+  {
+   "rule_id": "P29-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P29_Text_to_Text_Automatic_Story_Generation_Survey.pdf p.9"
+  },
+  {
+   "rule_id": "P29-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P29_Text_to_Text_Automatic_Story_Generation_Survey.pdf p.3"
+  },
+  {
+   "rule_id": "P29-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P29_Text_to_Text_Automatic_Story_Generation_Survey.pdf p.4"
+  },
+  {
+   "rule_id": "P29-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P29_Text_to_Text_Automatic_Story_Generation_Survey.pdf p.4"
+  },
+  {
+   "rule_id": "P29-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P29_Text_to_Text_Automatic_Story_Generation_Survey.pdf p.5"
+  },
+  {
+   "rule_id": "P29-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P29_Text_to_Text_Automatic_Story_Generation_Survey.pdf p.7"
+  },
+  {
+   "rule_id": "P45-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.36"
+  },
+  {
+   "rule_id": "P45-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.36"
+  },
+  {
+   "rule_id": "P45-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.37"
+  },
+  {
+   "rule_id": "P45-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.35"
+  },
+  {
+   "rule_id": "P45-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.35"
+  },
+  {
+   "rule_id": "P45-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.33"
+  },
+  {
+   "rule_id": "P45-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.31"
+  },
+  {
+   "rule_id": "P45-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.32"
+  },
+  {
+   "rule_id": "P45-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.32"
+  },
+  {
+   "rule_id": "P45-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.30"
+  },
+  {
+   "rule_id": "P45-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.34"
+  },
+  {
+   "rule_id": "P45-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf p.34"
+  },
+  {
+   "rule_id": "P24-01",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.246"
+  },
+  {
+   "rule_id": "P24-02",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.246"
+  },
+  {
+   "rule_id": "P24-03",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.246"
+  },
+  {
+   "rule_id": "P24-04",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.246"
+  },
+  {
+   "rule_id": "P24-05",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.247"
+  },
+  {
+   "rule_id": "P24-06",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.247"
+  },
+  {
+   "rule_id": "P24-07",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.253"
+  },
+  {
+   "rule_id": "P24-08",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.251"
+  },
+  {
+   "rule_id": "P24-09",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.250"
+  },
+  {
+   "rule_id": "P24-10",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.157"
+  },
+  {
+   "rule_id": "P24-11",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.164"
+  },
+  {
+   "rule_id": "P24-12",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P24_Characters_in_Film_and_Other_Media_2025_Archive.pdf p.156"
+  },
+  {
+   "rule_id": "P20-06b",
+   "verdict": "exact",
+   "score": 1.0,
+   "where": "P20_Fleeson_Jayawickreme_2025_Whole_Trait_Theory.pdf p.14"
+  }
+ ]
+}

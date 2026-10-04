@@ -1,0 +1,34 @@
+{
+ "source": {
+  "citation": "Oravecz, Z., Tuerlinckx, F., & Vandekerckhove, J. (2016). Bayesian Data Analysis with the Bivariate Hierarchical Ornstein-Uhlenbeck Process Model. Multivariate Behavioral Research, 51(1), 106-119.",
+  "doi": "10.1080/00273171.2015.1110512",
+  "local": "_tmp/Oravecz2016.pdf",
+  "pages": 15,
+  "pages_with_text_layer": 15,
+  "chars": 72677,
+  "data_reported": "79 人（PDF 物理页 9 逐字：\"we model pleasantness and activation levels of 79 people from the described experience-sampling study\"）"
+ },
+ "n_verbatim": 7,
+ "absent_in_source": [
+  "sparse",
+  "few observations",
+  "power analysis",
+  "minimum"
+ ],
+ "isomorphism": {
+  "external_drive": {
+   "CTA": "S * c",
+   "OU": "B * mu",
+   "meaning": "外部输入驱动力"
+  },
+  "self_regulation": {
+   "CTA": "- C * a",
+   "OU": "- B * d",
+   "meaning": "偏离基线的自我抑制"
+  },
+  "shared_structure": "两者均为「外部驱动 − 自我抑制」的二项线性结构；S ↔ B·μ，C ↔ B。"
+ },
+ "min_identifiable_points_selfbuilt": 4,
+ "n3_identifiable": 0,
+ "fails": []
+}

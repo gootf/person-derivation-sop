@@ -1,0 +1,31 @@
+{
+ "source": {
+  "citation": "Vitevitch, M. S., Ercal, G., & Adagarla, B. (2011). Simulating retrieval from a highly clustered network: Implications for spoken word recognition. Frontiers in Psychology, 2, 369.",
+  "doi": "10.3389/fpsyg.2011.00369",
+  "local": "_tmp/Vitevitch2011.pdf",
+  "pages": 10,
+  "pages_with_text_layer": 10,
+  "implemented_by": "spreadr R package (Siew 2019, Behavior Research Methods 51, 910-929)",
+  "authoritative_param_doc": {
+   "title": "spreadr: An R package to simulate spreading activation in a network",
+   "url": "https://cran.r-project.org/web/packages/spreadr/spreadr.pdf",
+   "local": "_tmp/spreadr_cran_manual.pdf",
+   "version": "0.3.0",
+   "date": "2026-05-30",
+   "why": "PMC 版（PMC6478646）被挡取（55 字符 HTML 错误页）；CRAN 官方手册逐字给出参数定义，比论文更精确，作为参数默认值的第一依据。"
+  }
+ },
+ "n_verbatim": 10,
+ "r0_conservation": 100.0,
+ "r0_with_decay": 50.0,
+ "self_built": {
+  "R_DEFAULT": 0.5,
+  "INIT_ACTIVATION": 100.0,
+  "TIME_STEPS": 10,
+  "_why_r": "Vitevitch 2011 把 r 当**扫描参数**（0.1–0.9），未指定唯一正确值；0.3/0.7 是其主结果（p.7）。**spreadr 包的官方默认是 0.5**（CRAN 手册 0.3.0）。本实现默认 0.5 以对齐包默认。",
+  "_sensitivity_required": "r 直接决定传播范围。使用方**必须**报告对 r 的敏感性。",
+  "_threshold_caveat": "⚠️ Vitevitch 2011 明确**不采用阈值**，且明确反对「因为别的模型有就加上」的推理。本项目保留阈值是为 SK-16 的三值判定，属**独立的自建选择**，**不得引 Vitevitch 为据**。",
+  "_no_decay_default": "默认 decay = 0（**不衰减**），这是 Vitevitch 2011 与 spreadr 包的共同设定；如需衰减须显式声明理由，且不得以「别的模型有」为由。"
+ },
+ "fails": []
+}

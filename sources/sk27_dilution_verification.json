@@ -1,0 +1,33 @@
+{
+ "upstream": {
+  "named_by_material": "GST-03 (Kruglanski et al. 2002) PDF 物理页 6 原文点名 Anderson (1974, 1983) 的 classic \"fan effect\"",
+  "material_figures_unavailable": {
+   "note": "GST-2002 说该关系见 Figures 4 and 5，但**全文 95 页 0 张嵌入图**，图形文字不在文本层 ⇒ 稀释函数形式在 GST-2002 内不可得。",
+   "verified": "逐页统计 get_images() 全为 0"
+  },
+  "surrogate": {
+   "title": "ACT-R 7.28 Reference Manual",
+   "publisher": "Carnegie Mellon University, Department of Psychology",
+   "local": "_tmp/ACTR7_reference_manual.pdf",
+   "pages": 542,
+   "pages_with_text_layer": 532,
+   "sha256_prefix": "16a5e730af7ebad6"
+  }
+ },
+ "n_verbatim": 5,
+ "base_level_samples": {
+  "n1_t0.5": 1.3862943611198906,
+  "n1_t20": -2.3025850929940455,
+  "n3_t0.5": 2.4849066497880004,
+  "full": 1.4271163556401456,
+  "approx": 0.8266785731844679
+ },
+ "self_built": {
+  "SET_DILUTION_FORM": "1/n（n 为 equifinality 集或 multifinality 集大小）",
+  "DECAY_D": 0.5,
+  "_why_D": "d=0.5 取自 ACT-R 手册**推荐值**（PDF p.269），但 ACT-R 的衰减是**时间/频次**维度，本项目把它借用到集合维度 ⇒ **借用是自建的**。",
+  "_why_form": "ACT-R **没有**「集合越大越弱」的公式（base-level 由频次/近因驱动）。GST-2002 只给方向且函数在不可读的 Figures 4/5 里。1/n 是本项目选的映射。",
+  "_foot6_must_model": "GST-2002 p.7 脚注 6：独特性只是**之一**；另有重复配对与权威陈述。⇒ 强度不可只由集合大小决定。"
+ },
+ "fails": []
+}

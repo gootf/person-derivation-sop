@@ -1,0 +1,2 @@
+# Byte fidelity: disable all EOL conversion (this project has hard checks on EOL/byte integrity)
+* -text

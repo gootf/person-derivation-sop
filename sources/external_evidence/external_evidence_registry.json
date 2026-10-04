@@ -1,0 +1,314 @@
+{
+ "purpose": "为 SOP §5.1 的 35 处自建项寻找外部依据",
+ "privacy": "检索只用通用学术术语；未把本项目内容送入任何搜索框或外部服务",
+ "entries": [
+  {
+   "id": "EXT-01",
+   "title": "Chapter 7: GRADE Criteria Determining Certainty of Evidence (ACIP GRADE Handbook)",
+   "publisher": "US CDC / ACIP",
+   "year": 2024,
+   "url": "https://www.cdc.gov/acip-grade-handbook/hcp/chapter-7-grade-criteria-determining-certainty-of-evidence/index.html",
+   "access": "全文 HTML 文本层，可逐字抽取",
+   "supports": "SK-16 三值/五档强度判定的**结构**：5 个降级域（risk of bias / inconsistency / indirectness / imprecision / publication bias）＋ 3 个升级标准（strength of association / dose-response / opposing plausible residual confounding）",
+   "critical_finding": "**降级域与总体等级不是一一对应**：原文明确『concerns about domains for rating down may not equate in a one-to-one relationship to the overall certainty』，并给出『两个域各自不严重、合并考虑时降一级』的实例。故**单一标量阈值 f 在结构上即为错误建模**。",
+   "verbatim": "concerns about domains for rating down may not equate in a one-to-one relationship to the overall certainty. For example, limitations pertaining to the risk of bias ... and indirectness domains are identified, but these limitations are not serious enough for moving down each of the domains, the overall evidence type may be downgraded by one level when limitations for both domains are considered together",
+   "fetched": "2026-09-27"
+  },
+  {
+   "id": "EXT-02",
+   "title": "Overview of the GRADE approach (GRADE Working Group handbook)",
+   "publisher": "GRADE Working Group",
+   "url": "https://book.gradepro.org/guideline/overview-of-the-grade-approach",
+   "access": "全文可提取",
+   "supports": "四档（very low/low/moderate/high）与 certainty-of-evidence 与 strength-of-recommendation 的**分离原则**",
+   "critical_finding": "GRADE 明确区分『证据确定性』与『推荐强度』——本项目五档强度对应前者，不可与『结论有多重要』混算。",
+   "fetched": "2026-09-27"
+  },
+  {
+   "id": "EXT-03",
+   "title": "Bayes Factors (Kass & Raftery 1995, JASA 90(430):773-795)",
+   "url": "https://www.stat.washington.edu/raftery/Research/PDF/kass1995.pdf",
+   "access": "❌ 扫描件，无文本层（P1 图像、零字符）→ 按本项目纪律**不采用**（OCR 前须证明分页与物理页一一对应）",
+   "note": "另一镜像 www.colorado.edu/... 同样仅 P1 有 JSTOR 版权页文本，P2+ 全为图像",
+   "fetched": "2026-09-27"
+  },
+  {
+   "id": "EXT-04",
+   "title": "Gilbert, D. T., & Malone, B. K. (1996). The Correspondence Bias. Psychological Bulletin, 120(3), 392-416.",
+   "url": "https://web.mit.edu/curhan/www/docs/Articles/biases/117_Psychological_Bulletin_21_(Gilbert).pdf",
+   "access": "✅ MIT 公开 PDF，18 页，**有文本层**（P1 5666 字符）",
+   "sha256": "cef8a8c84f702ea3e70868f120ac115b890e01f2cff3b0ab0c00fb1fec156b6d",
+   "bytes": 2442858,
+   "supports": "SK-07 归因折扣的**结构**：折扣不是单调衰减函数，而是「情境理由是否外生于人物倾向」的判断",
+   "critical_finding": "折扣原则有**三种失效情形**（self-induced / omnipresent / superfluous constraint，PDF 物理页 13-14）。其中弥散约束下**继续折扣会产生错误推断**——原文举例『受虐的孩子不是气质害怕，只是在可怕环境待了十年』。⇒ 单调折扣模型在 4/5 情形下给出错误答案。",
+   "verbatim": {
+    "three_cases": "(PDF p.13) These are the cases of self-induced constraint, omnipresent constraint, and superfluous constraint.",
+    "self_induced": "(PDF p.13) individuals appear to gravitate actively toward social situations that will foster and encourage the behavioral expression of their own characteristic dispositions",
+    "omnipresent": "(PDF p.14) when situations are temporary, they encourage temporary fluctuations in overt behavior ... But when situations are enduring, they may foster enduring behavioral tendencies, and one says that the actor has been changed by the situation.",
+    "erroneous": "(PDF p.14) observers who attempt to use the discounting principle to subtract out the effects of disposition-generating situations ... will end up with an erroneous inference."
+   },
+   "note": "本项目台账 P23-11 **自己已写**『有些时候折扣效应不像理论所提示的那么强』，但被压成『双向方向明确、无函数形式』——**方向对，缺的不是数值而是判断维度**。",
+   "fetched": "2026-09-27"
+  },
+  {
+   "id": "EXT-05",
+   "title": "NBDI: An Architecture for Goal-Oriented Normative Agents",
+   "authors": "Neto, N.; Santos, F.",
+   "year": 2011,
+   "venue": "ICAART 2011, pp. 621-628 (SCITEPRESS)",
+   "url": "https://www.scitepress.org/PublishedPapers/2011/31798/31798.pdf",
+   "text_layer": true,
+   "pages": 10,
+   "adopted": true,
+   "role": "**下游台账 P30 自己指明的上游** —— P30-04 原文「扩展自 Neto (2011)」；本项目此前只引下游 2018",
+   "provides": [
+    "p.5 g(n.DeonticConcept, n.State) 按该欲望的优先级定量贡献",
+    "p.6 Algorithm 3（履行）与 Algorithm 4（违反）是两个**独立**算法",
+    "p.7 「We consider that any norm element generates the same contribution that is 1」← 刻度依据",
+    "p.7 「if fulfil >= violate then 选履行」",
+    "p.7 冲突 = 同一状态 + 一义务一禁止 + 决策相同；解法取贡献更高者"
+   ],
+   "critical_finding": "**违反不是履行的取反** —— Alg.4 只算惩罚项，符号由惩罚项自己的 deontic 决定；奖励 r(n.Rewards) 只出现在 Alg.3（履行侧）。初版实现曾把两处都搞反，被门⑩ 抓到。",
+   "rejected_alternative": null,
+   "evidence_gap": "救援场景的规范构成只在 Tables 1/2/3 中，**该 PDF 无文本层** ⇒ Norm2 的 -1/-2 无法从场景独立复现；门⑩ 用可反推的项数构造复现，未猜测具体状态。",
+   "verbatim_count": 8
+  },
+  {
+   "id": "EXT-06",
+   "title": "项目已有材料自身载有的两处形式（无需外部检索）",
+   "adopted": true,
+   "external_retrieval_needed": false,
+   "components": [
+    {
+     "for": "SK-04 边权 w",
+     "source": "Mischel & Shoda 1995 (CAP)，本项目 papers/Mischel_Shoda_1995_CAP_S.pdf",
+     "page": "PDF 物理页 22（Appendix: Details of the Simulation）",
+     "provides": [
+      "正=兴奋／负=抑制／0=无连接的三态语义",
+      "聚合：all positive and negative inputs were simply summed",
+      "阈值：resultant activation 1 if positive, 0 if negative",
+      "真实数值 Table A1（4×6）与 Person1 的 .2,-.56,1.07,.55"
+     ],
+     "residual_selfbuilt": "序数档 → CAP 实数刻度的映射"
+    },
+    {
+     "for": "SK-36 惯性系数",
+     "source": "Rauthmann (ed.) 2021 手册，本项目 papers/ 内",
+     "page": "PDF 物理页 33（CTA 模型，Revelle 1986）／物理页 35（DynAffect 三参数）",
+     "provides": [
+      "dt = S·c − C·a",
+      "da = E·t − I·a",
+      "人格即四类参数 S/C/E/I 的取值",
+      "traits… influencing the rates of change of states",
+      "attractor strength = rate of return to home base"
+     ],
+     "residual_selfbuilt": "参数取值方法（手册称已在 R psych 包 CTA 函数中，未获取）"
+    }
+   ],
+   "critical_finding": "**两处『缺函数』其实都不缺 —— 依据就在项目已有材料里，只是不在台账已引的那几页。**SK-04 在 CAP 附录 p.22，SK-36 在手册 p.33，都是二手载明的具体模型。⇒ 方法论：引用论文前须查其**附录**与所引文献，别只看正文。",
+   "caveat": "CAP p.22 的『different threshold functions produced essentially the same overall results』指 100 人×15 情境模拟的**整体**结果，非逐点恒等；sum==0 是原文未定义的退化点，本项目取『非正⇒不激活』并显式记录。"
+  },
+  {
+   "id": "EXT-07",
+   "title": "The range of automatic spreading activation（de Groot 1983）",
+   "adopted": true,
+   "for": "SK-14 激活传播的 decay / threshold",
+   "chain": "P20 (WTT 2025) PDF p.7 原文点名 Collins & Loftus (1975) → 1975 原文付费墙未取得 → 改用其后继公开文献",
+   "citation": "de Groot, A. M. B. (1983). The range of automatic spreading activation. Memory & Cognition, 11(5), 415-434.",
+   "pages": 20,
+   "has_text_layer": true,
+   "sha256_prefix": "a8f21fa4e4216e28",
+   "provides": [
+    "p.1 阈值：activation in a memory location exceeds a certain threshold value (Morton, 1969)",
+    "p.13 衰减：Due to decay of activation (Collins & Loftus, 1975)",
+    "p.16 ★ 低于传播门槛 vs 未激活：absence of facilitation may simply indicate that a minimum amount of activation is required ... if it is to spread further"
+   ],
+   "critical_finding": "**「停滞」与「未激活」必须区分** —— 下游无观测效应，可能只是激活不够继续传播，而非该处被抑制或反号。这与 SK-16 的 sufficiency 域结构同构，为三值输出（充分/不充分/相反）提供了外部对应物。",
+   "residual_selfbuilt": "decay_factor 与 threshold 的**数值**（1983 是实验报告，非参数化论文）",
+   "wall_respected": "Collins & Loftus 1975 原文在付费墙后，**未绕过**；已如实登记。"
+  },
+  {
+   "id": "EXT-08",
+   "title": "ACT-R 7.28 Reference Manual（CMU）",
+   "citation": "Anderson, J. R., Bothell, D., Byrne, J., et al. (2023). ACT-R 7.28 Reference Manual. Carnegie Mellon University, Department of Psychology.",
+   "url": "https://act-r.psy.cmu.edu/actr7.28/reference-manual.pdf",
+   "pages": 542,
+   "pages_with_text_layer": 532,
+   "sha256_prefix": "16a5e730af7ebad6",
+   "adopted": true,
+   "for": "SK-27 稀释函数（衰减形式与刻度）",
+   "chain": "GST-2002 p.6 点名 Anderson (1974,1983) fan effect → ACT-R 官方手册",
+   "provides": [
+    "p.262 激活方程 A = B + S + P + ε（B=base-level 反映 recency/frequency）",
+    "p.263 B = β + ln(Σ 1/(d·t_j))；d 为 decay 参数，由 :bll 设定",
+    "p.263 近似式 B = β + ln(n/(d·(L−d)))（:ol=t 时）",
+    "p.269 ★ 「The recommended value for :bll is .5」← 刻度依据"
+   ],
+   "critical_finding": "GST-2002 把稀释关系画在 Figures 4/5，但**全文 95 页 0 张嵌入图**，函数形式在该 PDF 内不可得；须转向其点名上游 Anderson/ACT-R。",
+   "residual_selfbuilt": "1/n 形式（ACT-R 的衰减是**时间/频次**维度，**无集合维度公式**）；d=0.5 借用到集合维度属自建",
+   "p7_footnote6": "GST-2002 p.7 脚注 6：uniqueness 只是三因素之一，另有 repeated pairing 与 epistemic authority ⇒ 强度不可只由集合大小决定（已建模）",
+   "rejected": [
+    {
+     "file": "ACT-R_1983_SATh.pdf",
+     "reason": "扫描件，35 页 0 文本层 —— 按纪律不采用"
+    },
+    {
+     "file": "ACT-R_2012_spread.pdf",
+     "reason": "扫描件，8 页 0 文本层 —— 按纪律不采用"
+    }
+   ],
+   "self_correction": "首见手册时按 P1 字符数(296)判为扫描件并准备放弃；复查发现 532/542 页有文本层（117 万字符）。**用首页判据否定整篇是本项目已犯 13 次的判据错误，此处又犯一次。**"
+  },
+  {
+   "id": "EXT-09",
+   "title": "Does the Rasch Model Convert an Ordinal Scale into an Interval Scale?",
+   "citation": "Linacre, R. M. Does the Rasch Model Convert an Ordinal Scale into an Interval Scale? Rasch Measurement Transactions.",
+   "url": "https://www.rasch.org/rmt/rmt242a.htm",
+   "bytes": 20059,
+   "adopted": true,
+   "kind": "**约束（禁令）**，非依据",
+   "for": "全项目的「序数档 → 实数刻度」做法",
+   "verbatim": [
+    "as a matter of principle, in statistics a lower scale level cannot be transformed to a higher level. Does the Rasch model travel faster than the speed of light?",
+    "Counting, however, is distinctly different from measurement.",
+    "The raw score is actually the input to the analysis; it precedes rather than succeeds measurement. ... it is not some sort of \"crude measurement\" or \"an approximation\" per se.",
+    "The scale level of the raw score is not an unconditional property of the score. It depends on what the scale level refers to.",
+    "fit of the data to the model assures us of having successfully measured a quantitative variable"
+   ],
+   "critical_finding": "**本方法此前所做的（弱/中/强 → 0.2/0.6/1.07）在这门学科里被明确认为不成立。**Linacre 区分：计数 ≠ 测量；序数分数是**测量的输入**，不是待转换的粗糙测量。",
+   "applies_to": [
+    "SK-04 ORDINAL_TO_CAP（4 档 → 4 个实数）",
+    "SK-25 目标重要度数值"
+   ],
+   "does_not_apply_to": [
+    "SK-14 DECAY_FACTOR=0.5（扩散系数选值，非量级转换）"
+   ],
+   "correct_remedy": "原文给的正当出路是**模型拟合**（fit of data to the model）——正确处置是**保留定序 + 声明拟合依据**，不是给序数档硬配实数。"
+  },
+  {
+   "id": "EXT-10",
+   "title": "Simulating retrieval from a highly clustered network (Vitevitch, Ercal & Adagarla 2011)",
+   "citation": "Vitevitch, M. S., Ercal, G., & Adagarla, B. (2011). Frontiers in Psychology, 2, 369.",
+   "doi": "10.3389/fpsyg.2011.00369",
+   "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2011.00369/pdf",
+   "pages": 10,
+   "pages_with_text_layer": 10,
+   "adopted": true,
+   "implemented_by": "spreadr R package (Siew 2019, Behavior Research Methods 51, 910-929)",
+   "for": "SK-14 激活传播算法（第四次结构证伪）",
+   "provides": [
+    "p.5 ★ activation spreads unimpeded ... **does not decay over time**；does not diminish as it spreads",
+    "p.5 ★ 「we see no reason to include additional assumptions simply because other models include those assumptions」＋ principle of parsimony",
+    "p.6 reservoir(t,n) = r × inflow(t,n)；outflow(t,n) = (1−r) × inflow(t,n) / degree(n)",
+    "p.6 初始激活 100 单位；r ∈ {0.1…0.9} 步长 0.1",
+    "p.5 跑 10 个离散时间步；p.7 主结果用 r=0.3 与 r=0.7",
+    "p.5 明确**不采用**激活阈值"
+   ],
+   "critical_finding": "**上一版 SK-14 的乘性衰减（decay_factor=0.5）被证伪。**该领域主流网络模拟默认**不衰减**，且流出是**按 degree 均分**而非乘性衰减。原文的 parsimony 段落直接点名了「因为别的模型有就加上」这种推理 —— 那正是本项目曾犯的错。",
+   "time_vs_space": {
+    "EXT-07 (de Groot 1983)": "decay 指**时间**衰减（隔一会儿再测，效应变小）",
+    "EXT-10 (Vitevitch 2011)": "r 指**空间**保留比例（沿网络传播时留在本节点的比例）",
+    "my_error": "上一版用**一个** decay_factor 顶了这两件事 —— 混维度"
+   },
+   "residual_selfbuilt": "r 的取值（原文为扫描参数 0.1–0.9，未指定唯一正确值）＋ 阈值（Vitevitch 不用，本项目为 SK-16 三值判定另设）",
+   "supersedes": "旧版乘性衰减实现（已停用，由本条依据取代）"
+  },
+  {
+   "id": "EXT-11",
+   "title": "spreadr: An R package to simulate spreading activation in a network（CRAN 官方手册 0.3.0）",
+   "citation": "Siew, C. S. Q. (2019). Behavior Research Methods, 51, 910-929. 软件文档 Version 0.3.0 (2026-05-30).",
+   "url": "https://cran.r-project.org/web/packages/spreadr/spreadr.pdf",
+   "pages": 5,
+   "pages_with_text_layer": 5,
+   "adopted": true,
+   "for": "SK-14 传播参数默认值与迭代顺序",
+   "provides": [
+    "retention = 「the proportion of activation that remains in the node (not spread) at each time step」",
+    "★ decay = 「the proportion of activation that is lost at each time step」——**与 retention 是独立参数**",
+    "★ **decay 默认 = 0**（默认关闭衰减）",
+    "suppress = 「the maximum amount of activation in a node for it to be set to 0, at each time step」",
+    "★ 默认 retention = 0.5（**非 Vitevitch 论文主结果的 0.3**）",
+    "迭代顺序逐字：spread → decay → suppress → 加入 start_run → 保存 → 查终止条件"
+   ],
+   "critical_finding": "① 确认『默认不衰减』（decay=0）——上一轮从 Vitevitch 论文得出的判断得到软件层独立印证。② **纠正本项目默认值**：retention 应为 0.5 而非初版据论文主结果设的 0.3。③ decay 与 retention 分离 = 时间维度与空间维度的分离，印证上一轮的维度拆分。",
+   "residual_selfbuilt": "r 的取值（Vitevitch 原文为扫描参数 0.1–0.9，无唯一正确值）",
+   "rejected_sources": [
+    {
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6478646/",
+     "reason": "挡取，返回 100/55 字符 HTML 错误页，非论文"
+    },
+    {
+     "url": "https://journals.sagepub.com/doi/pdf/10.1002/per.2233",
+     "reason": "Sosnowska 2020 三次下载均失败，未获全文 ⇒ 不登记其 Table 6 的 attractor strength 数值"
+    }
+   ],
+   "provenance_correction": {
+    "target": "SK-07 约束类型术语",
+    "finding": "Gilbert & Malone 原文**只有三类**（self-induced／omnipresent／superfluous）。`imposing` 与 `unknown` 在原文 **0 命中**，是本项目自建。",
+    "previous_claim": "SK-07 曾写『五种类型已由 EXT-04 给出』——该表述错误，已更正。",
+    "verified_on": [
+     "_tmp/GilbertMalone1996.pdf",
+     "_tmp/Gilbert1995.pdf（18/18 页有文本层）"
+    ],
+    "counts": {
+     "self-induced": 4,
+     "omnipresent": 4,
+     "superfluous": 5,
+     "imposing": 0,
+     "unknown": 0
+    }
+   }
+  },
+  {
+   "id": "EXT-12",
+   "title": "Bayesian Data Analysis with the Bivariate Hierarchical Ornstein–Uhlenbeck Process Model (Oravecz, Tuerlinckx & Vandekerckhove 2016)",
+   "citation": "Multivariate Behavioral Research, 51(1), 106-119.",
+   "doi": "10.1080/00273171.2015.1110512",
+   "url": "https://www.ppw.kuleuven.be/okp/_pdf/Oravecz2016BDAWT.pdf",
+   "pages": 15,
+   "pages_with_text_layer": 15,
+   "chars": 72677,
+   "adopted": true,
+   "for": "SK-36 参数识别层（第五次结构证伪的来源）",
+   "provides": [
+    "★ p.4 状态方程 (1) 逐字：d(t) = B(μ − d(t))dt + σdW(t)；B =「regulatory force (or drift or dampening) matrix」",
+    "★ p.5 位置方程 (2) 逐字：一次观测给出**一个分布**，其参数不可由少数点定出",
+    "★ p.7 逐字：先验权重随数据量递减（「the more data one acquires, the less influential the prior becomes」）",
+    "p.2 参数为 person-specific（baseline／intraindividual variation／regulatory mechanisms）",
+    "p.9 数据：79 人 experience-sampling"
+   ],
+   "isomorphism": "CTA (EXT-06) 的 S·c − C·a 与 OU 的 B·μ − B·d **结构同构** ⇒ S↔B·μ、C↔B。这是 SK-36 首次获得**有依据**的参数语义映射。",
+   "critical_finding": "**SK-36 缺的不是另一个方程，而是参数识别层。**2–3 个时间点属**结构性不可识别**（无数组参数都能复现），这与「样本少→估计方差大」是**两件事**，必须分开报告。",
+   "absent_in_source": [
+    "sparse",
+    "few observations",
+    "power analysis",
+    "minimum"
+   ],
+   "not_provided": "该文**未**给任何样本量下限；本项目因此**不得**出现「至少 N 点」类断言。（该类数字需另找 Driver & Voelkle 的参数恢复研究；Sosnowska 2020 因未获全文不采信。）",
+   "residual_selfbuilt": "矩匹配 fit_mu_B() 算法（原文只给方程未给算法）＋ 可识别性阈值 4（纯启发式，无文献支撑）"
+  }
+ ],
+ "conclusion": "已采纳 11 条（EXT-01/02、EXT-04…EXT-12）；EXT-09 是**约束**。驳回：3 份扫描件 + 3 份挡取/错误页；1 条付费墙未绕过。结构证伪累计 4 次，另新增 1 处归属更正（SK-07 的 imposing/unknown）。",
+ "evidence": [
+  {
+   "id": "EXT-05",
+   "citation": "Neto, N., & Santos, F. (2011). NBDI: An Architecture for Goal-Oriented Normative Agents. ICAART 2011, 621-628.",
+   "url": "https://www.scitepress.org/PublishedPapers/2011/31798/31798.pdf",
+   "retrieved": "2026-09-27",
+   "has_text_layer": true,
+   "pages": 10,
+   "adopted": true,
+   "role": "**下游台账 P30 自己指明的上游** —— 本项目此前只引下游 2018，漏了上游",
+   "provides": [
+    "g(DeonticConcept, State) 按欲望优先级定量",
+    "Algorithm 3 履行 / Algorithm 4 违反（两个独立算法）",
+    "刻度：任何规范元素贡献为 1",
+    "履行≥违反 ⇒ 选履行",
+    "冲突定义与取更高者"
+   ],
+   "critical_finding": "**违反不是履行的取反** —— Alg.4 只算惩罚项，符号由惩罚项自己的 deontic 决定；奖励只属履行侧。初版实现两处都搞反了。",
+   "verbatim_count": 8
+  }
+ ]
+}

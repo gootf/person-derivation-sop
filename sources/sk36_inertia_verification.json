@@ -1,0 +1,19 @@
+{
+ "source": {
+  "book": "Rauthmann, J. F. (Ed.) (2021). Handbook of Personality Dynamics and Processes. Oxford University Press.",
+  "local": "papers/Rauthmann_2021_Ed_Book_Handbook_of_Personality_Dynamics_and_Processes.pdf",
+  "external_retrieval_needed": false,
+  "note": "本依据来自项目**已有材料**自身载有的二手综述，非新检索。"
+ },
+ "n_verbatim": 5,
+ "verbatim_pages": [
+  33,
+  35
+ ],
+ "self_built": {
+  "PARAM_FIT": "未实现 —— 原文只给方程形式，未给取值方法",
+  "_why": "Rauthmann 手册称 CTA 已实现为 R psych 包的 CTA 函数（Revelle, 2019），取值算法在包内，本项目未获取。DynAffect/PersDyn 的三参数（home base / variability / attractor strength）给了**含义**，但同样无取值方法。",
+  "_consequence": "本实现中的 S/C/E/I 只能由**调用方显式给定**，不得声称从材料自动推得。这是本技能当前最大限制。"
+ },
+ "fails": []
+}

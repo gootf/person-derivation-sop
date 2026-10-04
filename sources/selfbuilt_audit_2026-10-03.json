@@ -1,0 +1,287 @@
+{
+ "date": "2026-10-03",
+ "method": "逐条以检索词扫台账全字段→最强候选逐条读原文→裁决『材料未给X』是否属实",
+ "accounting": {
+  "账面": "31 处/30 技能",
+  "真实": "27 项/25 技能",
+  "构成": "真实27 = 计数器原计25 + SK-41第二行漏读1 + SK-28隐藏1；账面31 = 25 + 6幽灵行(『无。』开头仍被计数)",
+  "幽灵": [
+   "SK-12",
+   "SK-13",
+   "SK-15",
+   "SK-19",
+   "SK-37"
+  ],
+  "幽灵处置": "计数器改为『无』前缀即跳过；技能原文保留（注记有价值）"
+ },
+ "items": [
+  {
+   "skill": "SK-04",
+   "item": "序数档→CAP实数刻度的映射",
+   "verdict": "accurate",
+   "basis": "P28-06/07 给 5 档 Likert＋二元化规则（样本含糊即弃），但无实数刻度换算；EXT-09（Linacre）禁止序数→实数转换 ⇒ 映射确须自建",
+   "evidence": [
+    "P28-06",
+    "P28-07",
+    "EXT-09"
+   ]
+  },
+  {
+   "skill": "SK-06",
+   "item": "多行为复合指数算法",
+   "verdict": "accurate",
+   "basis": "P33-04 只给定义（观察期内频率汇总），无算法",
+   "evidence": [
+    "P33-04"
+   ]
+  },
+  {
+   "skill": "SK-07",
+   "item": "约束类型的判定方法",
+   "verdict": "accurate",
+   "basis": "台账 0 命中三类判定法；EXT-04 只给分类不给检测",
+   "evidence": [
+    "EXT-04"
+   ]
+  },
+  {
+   "skill": "SK-08",
+   "item": "因果图式库",
+   "verdict": "accurate",
+   "basis": "台账 19 条含 schema 但均非清单；SK 来源只给两例",
+   "evidence": [
+    "P39-01"
+   ]
+  },
+  {
+   "skill": "SK-14",
+   "item": "传播系数 r 的取值",
+   "verdict": "accurate",
+   "basis": "台账 0 命中；Vitevitch 给算法不给 r；spreadr 默认 r=0.5 属包默认（另记）",
+   "evidence": [
+    "EXT-10",
+    "EXT-11"
+   ]
+  },
+  {
+   "skill": "SK-16",
+   "item": "三值分界阈值 f",
+   "verdict": "accurate",
+   "basis": "P20-02『足够』无数值；P26-07 的 150 是生成式智能体反思触发器，非本机制（禁类比）",
+   "evidence": [
+    "P20-02",
+    "P26-07"
+   ]
+  },
+  {
+   "skill": "SK-18",
+   "item": "系统性先验图来源",
+   "verdict": "accurate",
+   "basis": "全台账仅 P24-06 赌场老板一例＋P24-05 人格图式泛述",
+   "evidence": [
+    "P24-06",
+    "P24-05"
+   ]
+  },
+  {
+   "skill": "SK-21",
+   "item": "评价维度取值刻度",
+   "verdict": "accurate",
+   "basis": "P04-01 给维度名；P35-01 给四层结构；均无量表",
+   "evidence": [
+    "P04-01",
+    "P35-01"
+   ]
+  },
+  {
+   "skill": "SK-22",
+   "item": "U/π/s 的构造与取值",
+   "verdict": "accurate",
+   "basis": "P16-09 Table 4.1 触发条件为定性效用升降，无 U 构造",
+   "evidence": [
+    "P16-09",
+    "P16-04"
+   ]
+  },
+  {
+   "skill": "SK-23",
+   "item": "情绪词↔差异映射表",
+   "verdict": "accurate",
+   "basis": "台账实有：ought/other 全链（P40-05恐惧/06/07怨恨）＋两类处境情绪词表（P40-10/11）＋羞耻（P40-14）；真缺仅 ideal/own、ideal/other、ought/own 三条显式预测。原声明『只到形式层』高估缺口——已改正技能单元格",
+   "evidence": [
+    "P40-05",
+    "P40-06",
+    "P40-07",
+    "P40-10",
+    "P40-11",
+    "P40-14"
+   ]
+  },
+  {
+   "skill": "SK-25",
+   "item": "目标重要度取值范围",
+   "verdict": "accurate",
+   "basis": "P30-05『数值表示重要度』无范围；P26-02/03 重要性/新近性（0.995）均非重要度刻度",
+   "evidence": [
+    "P30-05",
+    "P26-02",
+    "P26-03"
+   ]
+  },
+  {
+   "skill": "SK-27",
+   "item": "集合大小→强度函数",
+   "verdict": "accurate",
+   "basis": "GST 只给方向；ACT-R 给 B 公式但 GST 集合→ACT-R 练习事件的桥接自建",
+   "evidence": [
+    "GST-03",
+    "EXT-08"
+   ]
+  },
+  {
+   "skill": "SK-29",
+   "item": "2018 加权合成式",
+   "verdict": "accurate",
+   "basis": "下游声称加权未给式；上游 2011 无加权",
+   "evidence": [
+    "P30-04",
+    "EXT-05"
+   ]
+  },
+  {
+   "skill": "SK-30",
+   "item": "六索引取值域",
+   "verdict": "accurate",
+   "basis": "六索引仅列名，无各索引可选值（候选 P19-09/13 为 global/contextualized 评估二分，非六索引域）",
+   "evidence": [
+    "P19-09"
+   ]
+  },
+  {
+   "skill": "SK-31a",
+   "item": "嵌入模型选择",
+   "verdict": "accurate",
+   "basis": "P26-15 假定语言模型上下文，无选型规则",
+   "evidence": [
+    "P26-15"
+   ]
+  },
+  {
+   "skill": "SK-31b",
+   "item": "相关性的可计算代理",
+   "verdict": "accurate",
+   "basis": "P26-02 只命名相关性因子，无计算式；P26-03 的 0.995 是新近性衰减",
+   "evidence": [
+    "P26-02",
+    "P26-03"
+   ]
+  },
+  {
+   "skill": "SK-32",
+   "item": "行为清单知识库本体",
+   "verdict": "accurate",
+   "basis": "只说『域无关知识库＋规则匹配』，内容未给",
+   "evidence": [
+    "P19-21"
+   ]
+  },
+  {
+   "skill": "SK-33",
+   "item": "S/C/E/I 数值",
+   "verdict": "accurate",
+   "basis": "结构性表述，无任何取值；R5 缺口落点",
+   "evidence": [
+    "P20-10"
+   ]
+  },
+  {
+   "skill": "SK-34",
+   "item": "12特征清单/5因子系数/六步内容",
+   "verdict": "accurate",
+   "basis": "P31 给贝叶斯形式（softmax b 参数），无清单与系数",
+   "evidence": [
+    "P31-03"
+   ]
+  },
+  {
+   "skill": "SK-35",
+   "item": "先验分布本身",
+   "verdict": "accurate",
+   "basis": "P32-01/02 断言必须先验且小解释集原则错误，但无先验形式",
+   "evidence": [
+    "P32-01",
+    "P32-02",
+    "P31-02"
+   ]
+  },
+  {
+   "skill": "SK-36",
+   "item": "参数识别方法",
+   "verdict": "accurate",
+   "basis": "fit_mu_B 矩匹配自建；Oravecz 用贝叶斯 MCMC（EXT-12）但未给『多少点才够』",
+   "evidence": [
+    "EXT-12",
+    "EXT-06"
+   ]
+  },
+  {
+   "skill": "SK-38",
+   "item": "④⑤类可执行判据",
+   "verdict": "accurate",
+   "basis": "P03-02 只给名称与支撑层",
+   "evidence": [
+    "P03-02"
+   ]
+  },
+  {
+   "skill": "SK-39",
+   "item": "全局结构的具体范围",
+   "verdict": "accurate",
+   "basis": "P42-12b 提及未定义",
+   "evidence": [
+    "P42-12b"
+   ]
+  },
+  {
+   "skill": "SK-40",
+   "item": "四视点↔三意义域映射",
+   "verdict": "accurate",
+   "basis": "P24-12 四视点、P46-02 三成分各自完整，无跨表映射；『不得自行对齐』正确",
+   "evidence": [
+    "P24-12",
+    "P46-02"
+   ]
+  },
+  {
+   "skill": "SK-41a",
+   "item": "三档分类本身",
+   "verdict": "accurate",
+   "basis": "P47-06 单向保证，未规定反方向",
+   "evidence": [
+    "P47-06"
+   ]
+  },
+  {
+   "skill": "SK-41b",
+   "item": "档 A 的权上限",
+   "verdict": "accurate",
+   "basis": "P28-03 只说『过于笼统』无界",
+   "evidence": [
+    "P28-03"
+   ]
+  },
+  {
+   "skill": "SK-28",
+   "item": "损害记正贡献的计分方式",
+   "verdict": "accurate",
+   "basis": "P30 规范贡献只含奖励/惩罚/目标/人格特质四元，无损害计分；GST-06/P36-07 描述损害但不给计分——原藏在『无。但：』行内，已改为正式条目",
+   "evidence": [
+    "P30-04",
+    "GST-06",
+    "P36-07"
+   ]
+  }
+ ],
+ "overstatements_found": 1,
+ "overstatement_detail": "SK-23 原称台账『只到形式层』——实测已有 ought/other 全链＋两类情绪词表（P40-05/06/07/10/11/14），缺的是其余三种差异的显式预测。已改正技能单元格。"
+}

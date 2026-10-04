@@ -1,0 +1,40 @@
+{
+ "source": {
+  "id": "EXT-05",
+  "citation": "Neto, N., & Santos, F. (2011). NBDI: An Architecture for Goal-Oriented Normative Agents. ICAART 2011, pp. 621-628.",
+  "url": "https://www.scitepress.org/PublishedPapers/2011/31798/31798.pdf",
+  "has_text_layer": true,
+  "pages": 10,
+  "upstream_of": "P30 (Alves, Viana & Lucena 2018) —— 下游台账自己指明"
+ },
+ "n_verbatim": 8,
+ "worked_example": {
+  "Norm1": {
+   "fulfil": 3.0,
+   "violate": -1.0,
+   "expected": [
+    3,
+    -1
+   ]
+  },
+  "Norm3": {
+   "fulfil": 1.0,
+   "violate": -1.0,
+   "expected": [
+    1,
+    -1
+   ]
+  },
+  "Norm2": {
+   "fulfil": -1.0,
+   "violate": 0.0,
+   "note": "论文公布 -1/-2，但救援场景构成在 PDF 无文本层（Tables 1/2/3 为图形，正文不复述）⇒ 未猜测构造，只验符号与判据"
+  }
+ },
+ "self_built": {
+  "GOAL_WEIGHT": "additive",
+  "TRAIT_WEIGHT": "multiplicative",
+  "_why": "2018 论文声称「加入目标权重与人格特质权重」但未给合成式。重要度与贡献同量纲 → 加法；人格特质是调节强度 → 乘法。两者均可换：若找到明确给出合成式的文献，改这里即可。**注意两种选择可检验后果不同**：乘法权重为 0 时贡献归零，加法下不为零 —— 这不是形式推导能定的。"
+ },
+ "fails": []
+}

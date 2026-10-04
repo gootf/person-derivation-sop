@@ -1,0 +1,234 @@
+{
+ "_meta": {
+  "what": "技能↔台账引用语义抽样登记册（2026-10-03）",
+  "why": "此前引用校验只验 rule_id 存在性（挂对没有），语义一致性（引用处断言是否与台账规则相符）从未验过。按评估结论以抽样 30 条建立错误率估计。",
+  "sample_frame": "41 个技能文件正文中全部 rule_id 引用：461 引用行 / 264 唯一（文件,规则）对",
+  "sample": "random.seed(42).sample(264, 30)",
+  "verdict_scale": {
+   "consistent": "技能引用处断言与台账规则（mechanism + support_excerpt）语义一致",
+   "drift": "语义漂移——错挂、增强、弱化、方向颠倒"
+  },
+  "machine_precheck": "可机械核的疑点先回台账核实：P28-07『−2..2』在摘录命中；P43-05 joint analysis 句在摘录命中。",
+  "result": {
+   "consistent": 30,
+   "drift": 0
+  },
+  "caveats": [
+   "抽样估计错误率 0/30（95% 置信上界约 9.6%，rule-of-three），不得宣称『语义全对』",
+   "覆盖 19/41 技能文件（同一文件可多条）",
+   "语义判定为人工判断，未做双人复核"
+  ]
+ },
+ "samples": [
+  {
+   "id": 1,
+   "file": "SK-04-建边.md",
+   "rule_id": "P20-03",
+   "verdict": "consistent",
+   "note": "激活准备度+加权连接与台账 mechanism 逐短语对应"
+  },
+  {
+   "id": 2,
+   "file": "SK-04-建边.md",
+   "rule_id": "P28-06",
+   "verdict": "consistent",
+   "note": "注记引 P28-06 作『已给 5 档 Likert』依据，摘录正含 5 档标注流程"
+  },
+  {
+   "id": 3,
+   "file": "SK-04-建边.md",
+   "rule_id": "P28-07",
+   "verdict": "consistent",
+   "note": "『−2..2 序数量表』在摘录命中（映射 2/1/0/-1/-2），技能正确标注为判定输出非边权"
+  },
+  {
+   "id": 4,
+   "file": "SK-06-频率计量.md",
+   "rule_id": "P33-01",
+   "verdict": "consistent",
+   "note": "技能明确标注 P33-01 标 conflict（采方法不采本体论），与台账 conflict 一致"
+  },
+  {
+   "id": 5,
+   "file": "SK-07-归因折扣.md",
+   "rule_id": "P22-05",
+   "verdict": "consistent",
+   "note": "非共同效应断言逐字对应"
+  },
+  {
+   "id": 6,
+   "file": "SK-12-含糊度分离.md",
+   "rule_id": "P44-08",
+   "verdict": "consistent",
+   "note": "好目标/含糊目标对置与台账一致；定序标记输出是合规衍生"
+  },
+  {
+   "id": 7,
+   "file": "SK-14-激活传播与阈值.md",
+   "rule_id": "P20-04",
+   "verdict": "consistent",
+   "note": "degree+duration 双条件逐字对应"
+  },
+  {
+   "id": 8,
+   "file": "SK-14-激活传播与阈值.md",
+   "rule_id": "P20-06",
+   "verdict": "consistent",
+   "note": "端到端算例引用指向台账同一算例（John extraversion 分布）"
+  },
+  {
+   "id": 9,
+   "file": "SK-14-激活传播与阈值.md",
+   "rule_id": "P20-10",
+   "verdict": "consistent",
+   "note": "提取行引用与台账『典型情境转换+权重需经验评估』一致"
+  },
+  {
+   "id": 10,
+   "file": "SK-14-激活传播与阈值.md",
+   "rule_id": "P20-11",
+   "verdict": "consistent",
+   "note": "『细节可待修订』与台账『激活流动的确切细节可待修订』一致"
+  },
+  {
+   "id": 11,
+   "file": "SK-15-分支点约束.md",
+   "rule_id": "P13-01",
+   "verdict": "consistent",
+   "note": "合一（unify）判定引用，与 2026-10-03 门㉖ 修正后 gloss 一致"
+  },
+  {
+   "id": 12,
+   "file": "SK-15-分支点约束.md",
+   "rule_id": "P31-01",
+   "verdict": "consistent",
+   "note": "贝叶斯反演公式引用一致；技能正确标注 P31 系列为可选增强"
+  },
+  {
+   "id": 13,
+   "file": "SK-18-先验星图比对.md",
+   "rule_id": "P44-09",
+   "verdict": "consistent",
+   "note": "分化性断言逐短语对应（含外向性/自恋/自尊调节方向）"
+  },
+  {
+   "id": 14,
+   "file": "SK-22-事件情绪推导.md",
+   "rule_id": "P16-14",
+   "verdict": "consistent",
+   "note": "Relief=Fear 倒数断言逐字对应"
+  },
+  {
+   "id": 15,
+   "file": "SK-23-自我差异情绪.md",
+   "rule_id": "P40-04",
+   "verdict": "consistent",
+   "note": "四种差异类型列表逐项对应"
+  },
+  {
+   "id": 16,
+   "file": "SK-24-认知内容类型判定.md",
+   "rule_id": "P19-10",
+   "verdict": "consistent",
+   "note": "意向性区分断言逐字对应"
+  },
+  {
+   "id": 17,
+   "file": "SK-24-认知内容类型判定.md",
+   "rule_id": "P19-16",
+   "verdict": "consistent",
+   "note": "世界到心适配方向断言逐字对应"
+  },
+  {
+   "id": 18,
+   "file": "SK-25-目标表示.md",
+   "rule_id": "P35-01",
+   "verdict": "consistent",
+   "note": "四层区分（properties/dimensions/content/structure）逐项对应"
+  },
+  {
+   "id": 19,
+   "file": "SK-25-目标表示.md",
+   "rule_id": "P35-02",
+   "verdict": "consistent",
+   "note": "层级结构主导概念化断言逐字对应"
+  },
+  {
+   "id": 20,
+   "file": "SK-26-意向与承诺框架.md",
+   "rule_id": "P42-02",
+   "verdict": "consistent",
+   "note": "『不考虑自然性』否定式引用一致，技能正确用作禁令而非能力"
+  },
+  {
+   "id": 21,
+   "file": "SK-26-意向与承诺框架.md",
+   "rule_id": "P42-10",
+   "verdict": "consistent",
+   "note": "IPOCL 意向给予/发展断言逐字对应"
+  },
+  {
+   "id": 22,
+   "file": "SK-27-手段目标连接强度.md",
+   "rule_id": "GST-02",
+   "verdict": "consistent",
+   "note": "multifinality 定义+集合大小决定知觉价值断言逐字对应"
+  },
+  {
+   "id": 23,
+   "file": "SK-28-手段类型判定.md",
+   "rule_id": "GST-06",
+   "verdict": "consistent",
+   "note": "counterfinal 双向作用断言逐字对应（常非最优+反被知觉为更工具性）"
+  },
+  {
+   "id": 24,
+   "file": "SK-29-规范贡献与冲突求解.md",
+   "rule_id": "P30-06",
+   "verdict": "consistent",
+   "note": "冲突判定（相反 deontic）+三步贡献计算逐字对应"
+  },
+  {
+   "id": 25,
+   "file": "SK-29-规范贡献与冲突求解.md",
+   "rule_id": "P30-10",
+   "verdict": "consistent",
+   "note": "达成更多目标→履行更少规范断言逐字对应"
+  },
+  {
+   "id": 26,
+   "file": "SK-32-属性到行为清单映射.md",
+   "rule_id": "P43-05",
+   "verdict": "consistent",
+   "note": "joint analysis 句在摘录命中（部分中介证据句），引用方向正确"
+  },
+  {
+   "id": 27,
+   "file": "SK-35-行动概率分布与逆规划.md",
+   "rule_id": "P31-01",
+   "verdict": "consistent",
+   "note": "贝叶斯反演公式引用与台账 mechanism 逐式对应"
+  },
+  {
+   "id": 28,
+   "file": "SK-36-动机与情感惯性.md",
+   "rule_id": "P20-08",
+   "verdict": "consistent",
+   "note": "相似输入→相似反应稳定性断言逐字对应"
+  },
+  {
+   "id": 29,
+   "file": "SK-41-纯属性输入的锚处理.md",
+   "rule_id": "P28-03",
+   "verdict": "consistent",
+   "note": "『形容词过于笼统』限定一致，技能正确用作权重上限依据"
+  },
+  {
+   "id": 30,
+   "file": "SK-41-纯属性输入的锚处理.md",
+   "rule_id": "P28-04",
+   "verdict": "consistent",
+   "note": "CHATTER/trope 覆盖面断言逐字对应"
+  }
+ ]
+}

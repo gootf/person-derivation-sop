@@ -1,0 +1,61 @@
+{
+ "source": {
+  "citation": "Mischel, W., & Shoda, Y. (1995). A Cognitive-Affective System Theory of Personality. Psychological Review, 102(2), 246-268.",
+  "local": "papers/Mischel_Shoda_1995_CAP_S.pdf",
+  "page": 22,
+  "external_retrieval_needed": false
+ },
+ "table_a1": {
+  "1": [
+   -0.29,
+   -0.06,
+   0.31,
+   -0.05,
+   -0.42,
+   0.03
+  ],
+  "2": [
+   0.06,
+   -0.62,
+   -0.38,
+   -0.1,
+   1.28,
+   0.29
+  ],
+  "3": [
+   -0.56,
+   -0.02,
+   0.2,
+   0.77,
+   0.1,
+   -0.12
+  ],
+  "4": [
+   0.24,
+   -0.14,
+   0.21,
+   1.19,
+   -0.15,
+   1.06
+  ]
+ },
+ "person1": [
+  0.2,
+  -0.56,
+  1.07,
+  0.55
+ ],
+ "threshold_divergence": 0,
+ "n_cases": 8,
+ "zero_sum_boundary": {
+  "original_defines": false,
+  "project_choice": "sum==0 -> inactive(0)",
+  "note": "CAP p.22 ‘positive’ excludes 0; strict variant would differ. Recorded, not hidden."
+ },
+ "self_built": {
+  "TEXT_TO_WEIGHT": "未实现 —— 序数档 → CAP 实数刻度的映射",
+  "_why": "CAP 给出权重的语义/聚合/阈值与一张示例表，但**未给如何由自然语言推得具体权重**。本项目 S1 只能产出「弱/中/强」序数档。",
+  "_consequence": "序数→实数的映射若要使用，必须声明映射表并标为自建；不得声称权重由材料推得。"
+ },
+ "fails": []
+}

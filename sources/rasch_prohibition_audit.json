@@ -1,0 +1,30 @@
+{
+ "source": "Linacre, Rasch Measurement Transactions, rmt242a.htm",
+ "verbatim": {
+  "no_upward_transform": "as a matter of principle, in statistics a lower scale level cannot be transformed to a higher level. Does the Rasch model travel faster than the speed of light?",
+  "counting_not_measurement": "Counting, however, is distinctly different from measurement.",
+  "raw_score_is_input": "The raw score is actually the input to the analysis; it precedes rather than succeeds measurement. The raw score is the basis of an attempt to infer measures of a linear, interval-scaled latent variable. However, it is not some sort of \"crude measurement\" or \"an approximation\" per se.",
+  "scale_level_not_property": "The scale level of the raw score is not an unconditional property of the score. It depends on what the scale level refers to."
+ },
+ "applicable": [
+  {
+   "skill": "SK-04",
+   "item": "ORDINAL_TO_CAP",
+   "reason": "定序档 → 4 个不同实数，属量级转换"
+  },
+  {
+   "skill": "SK-25",
+   "item": "目标重要度数值",
+   "reason": "材料称序数语义需以数值表示"
+  }
+ ],
+ "not_applicable": [
+  {
+   "skill": "SK-14",
+   "item": "DECAY_FACTOR",
+   "reason": "扩散系数选值，非量级转换"
+  }
+ ],
+ "correct_remedy": "Linacre 指出测量性来自**模型拟合**（fit），而非分数转换 ⇒ 正确处置是保留定序 + 声明拟合依据，不是给序数档硬配实数。",
+ "fails": []
+}

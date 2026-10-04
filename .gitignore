@@ -1,0 +1,12 @@
+# Local staging (not distributed with the repo)
+/temp/
+
+# Runtime artifacts
+__pycache__/
+*.pyc
+*.log
+
+# OS misc
+Thumbs.db
+.DS_Store
+desktop.ini
